@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
-import { HeroeComponent } from "./heroe/heroe.component";
-import { ListComponent } from "./list/list.component";
+import { HeroeComponent } from "./heroe-page/heroe.component";
+import { ListComponent } from "./list-page/list.component";
 import { CommonModule } from '@angular/common'
 @NgModule({
   declarations: [
