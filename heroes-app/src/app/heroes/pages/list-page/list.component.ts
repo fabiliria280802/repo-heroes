@@ -1,16 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Hero } from '../../interfaces/hero.interface';
+import { HeroesService } from '../../services/heroes.service';
 
 @Component({
-  selector: 'app-heroes-list',
-  templateUrl: './list.component.html',
-  styleUrls: ['./list.component.css']
-})
-export class ListComponent {
-  public heroeNames: string[]=[
-    'Spiderma','Iroman','Hulk','She-Hulk','Thor'
+  selector: 'app-list-page',
+  templateUrl: './list-page.component.html',
+  styles: [
   ]
-  public deletedHero?: string;
-  public removeLastHero():void{
-    this.deletedHero = this.heroeNames.pop();
+})
+export class ListPageComponent implements OnInit {
+
+  public heroes: Hero[] = [];
+
+  constructor( private heroesService: HeroesService ) {}
+
+  ngOnInit(): void {
+    this.heroesService.getHeroes()
+      .subscribe( heroes => this.heroes = heroes );
   }
+
 }
+
