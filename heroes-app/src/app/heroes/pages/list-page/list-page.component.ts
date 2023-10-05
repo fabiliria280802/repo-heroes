@@ -20,4 +20,3 @@ export class ListPageComponent implements OnInit {
   }
 
 }
-

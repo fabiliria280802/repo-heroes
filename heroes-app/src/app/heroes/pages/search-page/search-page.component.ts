@@ -35,6 +35,7 @@ export class SearchPageComponent {
 
     const hero: Hero = event.option.value;
     this.searchInput.setValue( hero.superhero );
+
     this.selectedHero = hero;
   }
 }

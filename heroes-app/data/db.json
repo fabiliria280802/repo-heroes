@@ -133,7 +133,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "James Howlett",
       "first_appearance": "The Incredible Hulk #180",
-      "characters": "James Howlett"
+      "characters": "James Howlett",
+      "alt_img": ""
     },
     {
       "id": "marvel-daredevil",
@@ -166,6 +167,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "qFyDHZU",
+      "superhero": "Sandman",
+      "publisher": "DC Comics",
+      "alter_ego": "Morfeo",
+      "first_appearance": "New York World's Fair Comics #1",
+      "characters": "Sueño",
+      "alt_img": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/07/hipertextual-2020231565.jpg?fit=1200%2C805&quality=50&strip=all&ssl=1"
     }
   ]
 }
