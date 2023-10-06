@@ -9,8 +9,11 @@
 <h1 align="center"> Sobre Angular </h1>
 <div style="display: flex; align-items: center;">
 <img src="/heroes-app/src/assets/readme-images/Angular.png" />
-<p align="justify"> Angular es un framework de desarrollo para JavaScript creado por Google. Se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.</p>
+<p align="justify"> Angular es un poderoso framework de desarrollo web front-end creado por Google. Con una arquitectura basada en componentes, Angular facilita la creación de aplicaciones web robustas y dinámicas. Su amplia comunidad y abundante documentación lo convierten en una elección popular para desarrolladores. Angular ofrece herramientas avanzadas para la gestión del estado, enrutamiento y comunicación con API, lo que lo convierte en una opción ideal para proyectos complejos. Además, su capacidad de renderización del lado del servidor (Server-Side Rendering) mejora la velocidad y la optimización de SEO de las aplicaciones web.</p>
 </div>
+
+<h1 align="center"> Sobre JSON - server </h1>
+<p align="justify">JSON Server es una herramienta que permite crear rápidamente una API REST simulada utilizando un archivo JSON como fuente de datos. Es perfecto para el desarrollo y pruebas de aplicaciones que necesitan interactuar con una API. Con solo unos pocos comandos, puedes tener una API simulada lista para usar, lo que acelera el proceso de desarrollo y facilita las pruebas. JSON Server es una herramienta esencial en el kit de herramientas de los desarrolladores para agilizar el desarrollo de aplicaciones web y móviles.</p>
 
 <h1 align="center"> Angular - MVC arquitecture </h1>
 <div>
@@ -24,6 +27,8 @@ La Vista es la parte de la aplicación que se encarga de mostrar la información
 El Controlador es la capa que actúa como intermediario entre el Modelo y la Vista en el patrón MVC tradicional. Sin embargo, en Angular, la lógica del Controlador se maneja principalmente en los componentes.<br/><br/>
 <b>Services:</b><br/><br/>
 Los Servicios en Angular son clases que encapsulan la lógica de negocio y proporcionan una forma de compartir datos y funcionalidad entre componentes.
+<br/><br/>
+Teniendo en cuenta todo lo anterior, el diagrama muestra que en angular existen varios Models que estan identificados con .component y .service, las directrices son los controllers y ellos estan conectados a los templates que son las views/pages de la aplicación.
 </p>
 </div>
 
@@ -40,3 +45,4 @@ Nota: si no tienes instalado npm ejecutar el comando ```npm install``` antes del
 - Blanco, N. (2023, 25 mayo). ¿Qué patrón usa Angular? MVC o MVVM. OpenWebinars.net. https://openwebinars.net/blog/que-patron-usa-angular-mvc-o-mvvm/
 - David. (2017). Explicación del patrón MVC en AngularJS. Guidacode. https://guidacode.com/2017/angularjs/explicacion-del-patron-mvc-en-angularjs/
 - MA-NO Web Design and Development. (2020, 4 noviembre). El concepto de ModeloVistaControlador MVC explicado. https://www.ma-no.org/es/programacion/el-concepto-de-modelo-vista-controlador-mvc-explicado
+- NPM: JSOn-Server. (s. f.). npm. https://www.npmjs.com/package/json-server?activeTab=code
