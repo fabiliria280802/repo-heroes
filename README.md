@@ -38,7 +38,8 @@ Teniendo en cuenta todo lo anterior, el diagrama muestra que en angular existen 
 3. Levantar backend se usa el comando: ```npm run backend```
 4. Luego para levantar la aplicación con el frontend se usa el comando: ```npm start```
 
-Nota: si no tienes instalado npm ejecutar el comando ```npm install``` antes del paso 3 y 4.
+Nota 1: si no tienes instalado npm ejecutar el comando ```npm install``` antes del paso 3 y 4.
+Nota 2: el siguiente link es un video ilustrativo de la aplicación duncionando: https://clipchamp.com/watch/rTZkKGIb98O
 
 <h1 align="left"> Referencias Bibliograficas: </h1>
 
