@@ -56,20 +56,20 @@
       "characters": "Princess Diana"
     },
     {
-      "id": "dc-martian",
-      "superhero": "Martian Manhunter",
-      "publisher": "DC Comics",
-      "alter_ego": "J\"onn J\"onzz",
-      "first_appearance": "Detective Comics #225",
-      "characters": "Martian Manhunter"
-    },
-    {
       "id": "dc-robin",
       "superhero": "Robin/Nightwing",
       "publisher": "DC Comics",
       "alter_ego": "Dick Grayson",
       "first_appearance": "Detective Comics #38",
       "characters": "Dick Grayson"
+    },
+    {
+      "id": "dc-martian",
+      "superhero": "Martian Manhunter",
+      "publisher": "DC Comics",
+      "alter_ego": "J\"onn J\"onzz",
+      "first_appearance": "Detective Comics #225",
+      "characters": "Martian Manhunter"
     },
     {
       "id": "dc-blue",
@@ -94,14 +94,6 @@
       "alter_ego": "Peter Parker",
       "first_appearance": "Amazing Fantasy #15",
       "characters": "Peter Parker"
-    },
-    {
-      "id": "marvel-captain",
-      "superhero": "Captain America",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Steve Rogers",
-      "first_appearance": "Captain America Comics #1",
-      "characters": "Steve Rogers"
     },
     {
       "id": "marvel-iron",
@@ -133,7 +125,7 @@
       "publisher": "Marvel Comics",
       "alter_ego": "James Howlett",
       "first_appearance": "The Incredible Hulk #180",
-      "characters": "James Howlett",
+      "characters": "James Howlett, Logan",
       "alt_img": ""
     },
     {
@@ -143,6 +135,14 @@
       "alter_ego": "Matthew Michael Murdock",
       "first_appearance": "Daredevil #1",
       "characters": "Matthew Michael Murdock"
+    },
+    {
+      "id": "marvel-captain",
+      "superhero": "Captain America",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Steve Rogers",
+      "first_appearance": "Captain America Comics #1",
+      "characters": "Steve Rogers"
     },
     {
       "id": "marvel-hawkeye",
@@ -169,13 +169,23 @@
       "characters": "Norrin Radd"
     },
     {
-      "id": "qFyDHZU",
+      "id": "YGeVi6s",
       "superhero": "Sandman",
       "publisher": "DC Comics",
-      "alter_ego": "Morfeo",
-      "first_appearance": "New York World's Fair Comics #1",
-      "characters": "Sueño",
-      "alt_img": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/07/hipertextual-2020231565.jpg?fit=1200%2C805&quality=50&strip=all&ssl=1"
+      "alter_ego": "Sandman",
+      "first_appearance": "Sandman #1",
+      "characters": "Sueño, morfeo",
+      "alt_img": "https://pm1.narvii.com/6084/b1ca701efd91bab7c6bf374cd3613bab46278de8_hq.jpg"
+    },
+    {
+      "id": "p5TUy-t",
+      "superhero": "Death",
+
+     "publisher": "DC Comics",
+      "alter_ego": "Death",
+      "first_appearance": "Sandman #4",
+      "characters": "Death",
+      "alt_img": "https://dam.smashmexico.com.mx/wp-content/uploads/2018/11/the-sandman-vertigo-datos-historia-data.jpg"
     }
   ]
 }
