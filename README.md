@@ -15,13 +15,13 @@
 <h1 align="center"> Angular - MVC arquitecture </h1>
 <div>
 <img src="/heroes-app/src/assets/readme-images/angularArch.png" />
-<p align="justify">La arquitectura MVC (Model-View-Controller) es un patrón de diseño ampliamente utilizado en el desarrollo de aplicaciones web.<br/>
-<b>Model:</b><br/>
+<p align="justify">La arquitectura MVC (Model-View-Controller) es un patrón de diseño ampliamente utilizado en el desarrollo de aplicaciones web.<br/><br/>
+<b>Model:</b><br/><br/>
 El Modelo representa los datos y la lógica de negocio de la aplicación. En Angular, los modelos suelen ser clases TypeScript que definen la estructura los datos, como objetos o entidades.<br/>
-<b>View:</b><br/>
+<b>View:</b><br/><br/>
 La Vista es la parte de la aplicación que se encarga de mostrar la información al usuario. Cuando se usa como framework Angular, las Vistas se crean usando componentes. Cada componente tiene su propio archivo HTML que define la estructura de la interfaz de usuario.<br/>
-<b>Controller:</b><br/>
-El Controlador es la capa que actúa como intermediario entre el Modelo y la Vista en el patrón MVC tradicional. Sin embargo, en Angular, la lógica del Controlador se maneja principalmente en los componentes.<br/>
+<b>Controller:</b><br/><br/>
+El Controlador es la capa que actúa como intermediario entre el Modelo y la Vista en el patrón MVC tradicional. Sin embargo, en Angular, la lógica del Controlador se maneja principalmente en los componentes.<br/><br/>
 <b>Services:</b><br/>
 Los Servicios en Angular son clases que encapsulan la lógica de negocio y proporcionan una forma de compartir datos y funcionalidad entre componentes.
 </p>
