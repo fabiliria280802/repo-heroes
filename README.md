@@ -42,7 +42,7 @@ Nota 1: si no tienes instalado npm ejecutar el comando ```npm install``` antes d
 
 Nota 2: el siguiente link es un video ilustrativo de la aplicación funcionando: https://clipchamp.com/watch/rTZkKGIb98O
 
-<h1 align="left"> Referencias Bibliograficas: </h1>
+<h1 align="left"> Referencias Bibliográficas: </h1>
 
 - Blanco, N. (2023, 25 mayo). ¿Qué patrón usa Angular? MVC o MVVM. OpenWebinars.net. https://openwebinars.net/blog/que-patron-usa-angular-mvc-o-mvvm/
 - David. (2017). Explicación del patrón MVC en AngularJS. Guidacode. https://guidacode.com/2017/angularjs/explicacion-del-patron-mvc-en-angularjs/
