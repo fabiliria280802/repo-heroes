@@ -33,7 +33,7 @@ Los Servicios en Angular son clases que encapsulan la lógica de negocio y propo
 3. Levantar backend se usa el comando: ```npm run backend```
 4. Luego para levantar la aplicación con el frontend se usa el comando: ```npm start```
 
-Nota: si no tienes instaldo npm ejecutar el comando ```npm install``` antes del paso 3 y 4.
+Nota: si no tienes instalado npm ejecutar el comando ```npm install``` antes del paso 3 y 4.
 
 <h1 align="left"> Referencias Bibliograficas: </h1>
 
