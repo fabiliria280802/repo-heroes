@@ -34,8 +34,8 @@ Teniendo en cuenta todo lo anterior, el diagrama muestra que en angular existen 
 
 <h1 align="center"> Diseño de Ingenieria </h1>
 <div>
-<p align="justify"><b>Contexto de Login:</b><br/><br/>
-
+<p align="justify"><b>Contexto del Login:</b><br/><br/>
+El login constituye la única vía de acceso a la plataforma Freaks. Para ingresar, los usuarios deben registrarse o iniciar sesión, lo que se almacena en la base de datos. Esta funcionalidad habilita a los usuarios a realizar operaciones de Crear, Leer, Actualizar y Eliminar (CRUD) en la totalidad de la aplicación. Adicionalmente, la no se puede ingresar al CRUD por la URL de la pagina porque esta valido con el ingreso por login.
 <p><b>Diagrama de Login:</b><br/><br/>
 <img src="/heroes-app/src/assets/readme-images/angularArch.png" />
 </div>
