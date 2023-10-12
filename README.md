@@ -61,7 +61,7 @@ Nota 1: si no tienes instalado npm ejecutar el comando ```npm install``` antes d
 
 Nota 2: el siguiente link es un video ilustrativo de la aplicación funcionando: https://clipchamp.com/watch/rTZkKGIb98O
 
-Nota 3: el siguiente link es un video ilustrativo de la autenticación funcionando: 
+Nota 3: el siguiente link es un video ilustrativo de la autenticación funcionando: https://clipchamp.com/watch/b6wW5rYEqXS
 
 <h1 align="left"> Referencias Bibliográficas: </h1>
 
