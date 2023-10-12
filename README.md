@@ -32,6 +32,15 @@ Teniendo en cuenta todo lo anterior, el diagrama muestra que en angular existen 
 </p>
 </div>
 
+<h1 align="center"> Diseño de Ingenieria </h1>
+<div>
+<p align="justify"><b>Contexto de Login:</b><br/><br/>
+
+<p><b>Diagrama de Login:</b><br/><br/>
+<img src="/heroes-app/src/assets/readme-images/angularArch.png" />
+</div>
+</p>
+
 # Pasos para ejecución:
 1. Clonar el proyecto en Github CLI con el comando: ```gh repo clone fabiliria280802/repo-heroes```
 2. Se abren dos terminales de vs ```ctrl + shift + ñ``` una para correr el backend y otra para correr el frontend.
