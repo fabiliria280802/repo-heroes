@@ -6,23 +6,17 @@
   </mat-grid-list>
 </ng-template>
 
-
 <div *ngIf="hero; else divLoading" class="grid p-2">
-
   <mat-card class="col-12 sm:col-6">
-
     <mat-card-header>
       <mat-card-title>{{ hero.alter_ego }}</mat-card-title>
       <mat-card-subtitle>{{ hero.superhero }}</mat-card-subtitle>
     </mat-card-header>
 
-
-    <img [src]="hero | heroImage" [alt]="hero.superhero" mat-card-image  />
-
+    <img [src]="hero | heroImage" [alt]="hero.superhero" mat-card-image />
   </mat-card>
 
   <mat-card class="col-12 sm:col-6">
-
     <mat-card-header>
       <mat-card-title>Información</mat-card-title>
       <mat-card-subtitle>{{ hero.superhero }}</mat-card-subtitle>
@@ -36,13 +30,7 @@
         <mat-list-item>{{ hero.alter_ego }}</mat-list-item>
       </mat-list>
 
-      <button
-        mat-button
-        color="warn"
-        (click)="goBack()"
-      >
-        Regresar
-      </button>
+      <button mat-button color="warn" (click)="goBack()">Regresar</button>
     </mat-card-content>
   </mat-card>
 </div>

@@ -9,15 +9,16 @@ import { PublicGuard } from './auth/guards/public.guard';
 const routes: Routes = [
   {
     path: 'auth',
-    loadChildren: () => import('./auth/auth.module').then( m => m.AuthModule ),
-    canActivate: [ PublicGuard ],
-    canMatch: [ PublicGuard ]
+    loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule),
+    canActivate: [PublicGuard],
+    canMatch: [PublicGuard],
   },
   {
     path: 'heroes',
-    loadChildren: () => import('./heroes/model/heroes.module').then( m => m.HeroesModule ),
-    canActivate: [ AuthGuard ],
-    canMatch: [ AuthGuard ]
+    loadChildren: () =>
+      import('./heroes/model/heroes.module').then((m) => m.HeroesModule),
+    canActivate: [AuthGuard],
+    canMatch: [AuthGuard],
   },
   {
     path: '404',
@@ -26,17 +27,16 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: 'heroes',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: '**',
     redirectTo: '404',
-  }
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
-
+export class AppRoutingModule {}

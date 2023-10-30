@@ -52,7 +52,7 @@ La base de datos está implementada utilizando un servidor JSON (JSON Server), l
 </div>
 
 # Pasos para ejecución:
-1. Clonar el proyecto en Github CLI con el comando: ```gh repo clone fabiliria280802/repo-heroes```
+1. Clonar el proyecto en Github CLI con el comando: ```gh repo clone fabiliria280802/minicore-angular-mysql```
 2. Se abren dos terminales de vs ```ctrl + shift + ñ``` una para correr el backend y otra para correr el frontend.
 3. Levantar backend se usa el comando: ```npm run backend```
 4. Luego para levantar la aplicación con el frontend se usa el comando: ```npm start```

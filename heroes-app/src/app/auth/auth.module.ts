@@ -12,12 +12,8 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
   declarations: [
     LayoutPageComponent,
     LoginPageComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
   ],
-  imports: [
-    CommonModule,
-    AuthRoutingModule,
-    MaterialModule,
-  ]
+  imports: [CommonModule, AuthRoutingModule, MaterialModule],
 })
-export class AuthModule { }
+export class AuthModule {}

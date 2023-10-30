@@ -1,3 +1,3 @@
 export const environments = {
-  baseUrl: 'https://fabiliria.com/api'
-}
+  baseUrl: 'https://fabiliria.com/api',
+};

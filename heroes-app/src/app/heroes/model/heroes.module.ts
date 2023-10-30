@@ -14,7 +14,6 @@ import { CardComponent } from '../components/card/card.component';
 import { HeroImagePipe } from '../pipes/hero-image.pipe';
 import { ConfirmDialogComponent } from '../components/confirm-dialog/confirm-dialog.component';
 
-
 @NgModule({
   declarations: [
     HeroPageComponent,
@@ -26,13 +25,13 @@ import { ConfirmDialogComponent } from '../components/confirm-dialog/confirm-dia
 
     // Pipes
     HeroImagePipe,
-     ConfirmDialogComponent,
+    ConfirmDialogComponent,
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     HeroesRoutingModule,
     MaterialModule,
-  ]
+  ],
 })
-export class HeroesModule { }
+export class HeroesModule {}
